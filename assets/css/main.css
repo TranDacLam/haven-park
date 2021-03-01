@@ -409,7 +409,7 @@ img {
         position: relative;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 400;
         color: #FBFF86; }
       .s-premium-2__content P {
@@ -501,7 +501,7 @@ img {
         position: relative;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 400;
         color: #FBFF86; }
       .s-premium-3__content P {
@@ -520,7 +520,7 @@ img {
       position: relative;
       margin-bottom: 20px;
       text-transform: uppercase;
-      font-size: 33px;
+      font-size: 30px;
       font-weight: 400;
       color: #FBFF86; }
     .s-premium-4__content P {
@@ -554,7 +554,7 @@ img {
         position: relative;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 400;
         color: #FBFF86; }
       .s-premium-5__content P {
@@ -608,7 +608,7 @@ img {
       position: relative;
       margin-bottom: 30px;
       text-transform: uppercase;
-      font-size: 33px;
+      font-size: 30px;
       font-weight: 400;
       color: #FBFF86; }
       .s-premium-6__header p {
@@ -716,13 +716,13 @@ img {
         position: relative;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 400;
         color: #FBFF86; }
       .s-premium-7__content p {
         font-size: 21px;
         font-weight: 400;
-        margin-bottom: 25px; }
+        margin-bottom: 0px; }
     .s-premium-7__info {
       margin-top: 30px; }
       .s-premium-7__info .row > div:nth-child(2n) {
@@ -737,11 +737,11 @@ img {
         height: calc(100% - 10px); }
         .s-premium-7__info-item h5 {
           color: #000000;
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 400;
           text-transform: uppercase;
           background-color: #b9dcab;
-          padding: 8px 0;
+          padding: 6px 0;
           text-align: center;
           border-radius: 4px;
           margin-bottom: 10px; }
@@ -756,9 +756,12 @@ img {
             font-weight: 400;
           }
     .s-premium-7__img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding-left: 42px; }
       .s-premium-7__img img{
-        width: 100%; }
+        width: 95%; }
     .s-premium-7__zoom {
       width: 65px;
       height: 65px;
@@ -791,7 +794,7 @@ img {
         position: relative;
         margin-bottom: 20px;
         text-transform: uppercase;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 400;
         color: #FBFF86; }
       .s-premium-8__content P {
@@ -858,7 +861,7 @@ img {
     .s-premium-contact__info {
       margin-bottom: 50px; }
       .s-premium-contact__info h4 {
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 400;
         text-transform: uppercase;
         color: #000000;
@@ -1138,7 +1141,10 @@ img {
   .s-premium-3__content {
     flex: 1.4; }
   .s-premium-3__img {
-    padding-left: 5%; } }
+    padding-left: 5%; } 
+    .key-img-4 {
+      max-width: 85%;
+    }
 
 @media only screen and (min-width: 1600px) {
   .s-premium .navbar {
@@ -1149,6 +1155,15 @@ img {
     top: 40px; } }
 
 @media only screen and (max-width: 1500px) {
+  .s-premium-7__info-item div p{
+    font-size: 12px;
+  }
+  .s-premium-7__content{
+    justify-content: flex-end;
+  }
+  .s-premium-6__header p{
+    width: 70%;
+  }
   .s-premium .section-title {
     margin-bottom: 20px; }
   .s-premium .navbar .nav-link {
@@ -1225,11 +1240,6 @@ img {
     font-size: 16px; }
   .s-premium-8__img {
     margin-top: 10px; } }
-    @media only screen and (max-width: 1500px){
-      .s-premium-6__header p{
-        width: 70%;
-      }
-    }
 @media only screen and (max-width: 1500px) and (min-width: 1200px) {
   .section-wrapper {
     padding-top: calc(77px + 30px + 20px); }
