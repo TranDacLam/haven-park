@@ -145,7 +145,7 @@ $source = implode(' - ',$_GET);
 		</div>
 
 		<div class="s-premium-1__img">
-			<img src="<?php echo THEME_URL  ?>/assets/images/bg-1-mobile.png" />
+			<img src="<?php echo THEME_URL  ?>/assets/images/bg-1-mobile.jpg" />
 		</div>
 	</div>
 
